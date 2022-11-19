@@ -1,6 +1,3 @@
-import Image from 'next/image';
-import screenshotUrl from '../public/screenshot.png';
-
 export default function Home() {
   return (
     <>
@@ -70,13 +67,10 @@ export default function Home() {
         </div>
         <div className="relative">
           <div className="absolute inset-0 bg-gradient-to-b from-transparent to-gray-900 z-10" />
-          <Image
-            src={screenshotUrl}
+          <img
+            src="/screenshot.png"
             className="relative"
             alt="Screenshot of the app"
-            quality={80}
-            placeholder="blur"
-            priority
           />
         </div>
       </section>
