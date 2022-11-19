@@ -45,7 +45,7 @@ export default function Home() {
           powered by
           <img src="/spotify.png" className="h-[1.5em] ml-2" alt="Spotify" />
         </h2>
-        <p className="my-8 leading-relaxed px-20 text-gray-400 text-lg">
+        <p className="my-20 leading-loose px-20 text-gray-400 text-lg">
           Discoverify makes use of Spotify's recommendation engine to find songs
           you would miss.
           <br />
@@ -55,6 +55,10 @@ export default function Home() {
         </p>
         <div className="max-w-5xl mx-auto relative blur-[1000px] -z-[1]">
           <img src="/bg2.svg" className="absolute -top-48 blur-[1000px]" />
+        </div>
+        <div className="relative">
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent to-gray-900 z-10" />
+          <img src="/screenshot.png" className="relative" />
         </div>
       </section>
     </>
