@@ -55,13 +55,33 @@ export default function Home() {
           </svg>
         </h2>
         <p className="my-20 leading-loose px-20 text-gray-400 text-lg">
-          Discoverify makes use of Spotify's recommendation engine to find songs
-          you would miss.
+          Discoverify makes use of Spotify's API to find songs you could miss in
+          the official app.
           <br />
           It offers a simple and intuitive interface to discover new music.
-          <br />
-          Find songs, artists, albums and playlists you would miss.
         </p>
+        {/* <div className="grid grid-cols-5 gap-4 mb-20">
+          <div className="flex flex-col text-left rounded-md p-3 bg-gray-700 border border-gray-500">
+            <span className="uppercase font-medium text-gray-400">Liked tracks</span>
+            <span className="text-2xl font-bold">1643</span>
+          </div>
+          <div className="flex flex-col text-left rounded-md p-3 bg-gray-700 border border-gray-500">
+            <span className="uppercase font-medium text-gray-400">Followed artists</span>
+            <span className="text-2xl font-bold">1643</span>
+          </div>
+          <div className="flex flex-col text-left rounded-md p-3 bg-gray-700 border border-gray-500">
+            <span className="uppercase font-medium text-gray-400">Saved albums</span>
+            <span className="text-2xl font-bold">1643</span>
+          </div>
+          <div className="flex flex-col text-left rounded-md p-3 bg-gray-700 border border-gray-500">
+            <span className="uppercase font-medium text-gray-400">Created playlists</span>
+            <span className="text-2xl font-bold">1643</span>
+          </div>
+          <div className="flex flex-col text-left rounded-md p-3 bg-gray-700 border border-gray-500">
+            <span className="uppercase font-medium text-gray-400">Listened tracks</span>
+            <span className="text-2xl font-bold">16443</span>
+          </div>
+        </div> */}
         <div className="max-w-5xl mx-auto relative blur-[1000px] -z-[1]">
           <img src="/bg2.svg" className="absolute -top-48 blur-[1000px]" />
         </div>
